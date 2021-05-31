@@ -4,7 +4,7 @@ const fs=require('fs');
 const app = express();
 const bodyparser=require("body-parser");
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/ekart', {useNewUrlParser: true});
+mongoose.connect('<here paste your mongodb url>', {useNewUrlParser: true});
 const port = 8000;
 
 //Defining mongoose Schema
